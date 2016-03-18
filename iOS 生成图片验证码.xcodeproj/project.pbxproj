@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6EE74891C9B9FA2003EB592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE74881C9B9FA2003EB592 /* main.m */; };
+		B6EE748C1C9B9FA2003EB592 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE748B1C9B9FA2003EB592 /* AppDelegate.m */; };
+		B6EE748F1C9B9FA2003EB592 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE748E1C9B9FA2003EB592 /* ViewController.m */; };
+		B6EE74921C9B9FA2003EB592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EE74901C9B9FA2003EB592 /* Main.storyboard */; };
+		B6EE74941C9B9FA2003EB592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6EE74931C9B9FA2003EB592 /* Assets.xcassets */; };
+		B6EE74971C9B9FA2003EB592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EE74951C9B9FA2003EB592 /* LaunchScreen.storyboard */; };
+		B6EE74A21C9B9FA2003EB592 /* iOS________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE74A11C9B9FA2003EB592 /* iOS________Tests.m */; };
+		B6EE74AD1C9B9FA2003EB592 /* iOS________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE74AC1C9B9FA2003EB592 /* iOS________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6EE749E1C9B9FA2003EB592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EE747C1C9B9FA2003EB592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6EE74831C9B9FA2003EB592;
+			remoteInfo = "iOS 生成图片验证码";
+		};
+		B6EE74A91C9B9FA2003EB592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EE747C1C9B9FA2003EB592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6EE74831C9B9FA2003EB592;
+			remoteInfo = "iOS 生成图片验证码";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6EE74841C9B9FA2003EB592 /* iOS 生成图片验证码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS 生成图片验证码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EE74881C9B9FA2003EB592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6EE748A1C9B9FA2003EB592 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6EE748B1C9B9FA2003EB592 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6EE748D1C9B9FA2003EB592 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6EE748E1C9B9FA2003EB592 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6EE74911C9B9FA2003EB592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6EE74931C9B9FA2003EB592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6EE74961C9B9FA2003EB592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6EE74981C9B9FA2003EB592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6EE749D1C9B9FA2003EB592 /* iOS 生成图片验证码Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 生成图片验证码Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EE74A11C9B9FA2003EB592 /* iOS________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS________Tests.m"; sourceTree = "<group>"; };
+		B6EE74A31C9B9FA2003EB592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6EE74A81C9B9FA2003EB592 /* iOS 生成图片验证码UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 生成图片验证码UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EE74AC1C9B9FA2003EB592 /* iOS________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS________UITests.m"; sourceTree = "<group>"; };
+		B6EE74AE1C9B9FA2003EB592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6EE74811C9B9FA2003EB592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EE749A1C9B9FA2003EB592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EE74A51C9B9FA2003EB592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6EE747B1C9B9FA2003EB592 = {
+			isa = PBXGroup;
+			children = (
+				B6EE74861C9B9FA2003EB592 /* iOS 生成图片验证码 */,
+				B6EE74A01C9B9FA2003EB592 /* iOS 生成图片验证码Tests */,
+				B6EE74AB1C9B9FA2003EB592 /* iOS 生成图片验证码UITests */,
+				B6EE74851C9B9FA2003EB592 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6EE74851C9B9FA2003EB592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE74841C9B9FA2003EB592 /* iOS 生成图片验证码.app */,
+				B6EE749D1C9B9FA2003EB592 /* iOS 生成图片验证码Tests.xctest */,
+				B6EE74A81C9B9FA2003EB592 /* iOS 生成图片验证码UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6EE74861C9B9FA2003EB592 /* iOS 生成图片验证码 */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE748A1C9B9FA2003EB592 /* AppDelegate.h */,
+				B6EE748B1C9B9FA2003EB592 /* AppDelegate.m */,
+				B6EE748D1C9B9FA2003EB592 /* ViewController.h */,
+				B6EE748E1C9B9FA2003EB592 /* ViewController.m */,
+				B6EE74901C9B9FA2003EB592 /* Main.storyboard */,
+				B6EE74931C9B9FA2003EB592 /* Assets.xcassets */,
+				B6EE74951C9B9FA2003EB592 /* LaunchScreen.storyboard */,
+				B6EE74981C9B9FA2003EB592 /* Info.plist */,
+				B6EE74871C9B9FA2003EB592 /* Supporting Files */,
+			);
+			path = "iOS 生成图片验证码";
+			sourceTree = "<group>";
+		};
+		B6EE74871C9B9FA2003EB592 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE74881C9B9FA2003EB592 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6EE74A01C9B9FA2003EB592 /* iOS 生成图片验证码Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE74A11C9B9FA2003EB592 /* iOS________Tests.m */,
+				B6EE74A31C9B9FA2003EB592 /* Info.plist */,
+			);
+			path = "iOS 生成图片验证码Tests";
+			sourceTree = "<group>";
+		};
+		B6EE74AB1C9B9FA2003EB592 /* iOS 生成图片验证码UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE74AC1C9B9FA2003EB592 /* iOS________UITests.m */,
+				B6EE74AE1C9B9FA2003EB592 /* Info.plist */,
+			);
+			path = "iOS 生成图片验证码UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6EE74831C9B9FA2003EB592 /* iOS 生成图片验证码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EE74B11C9B9FA2003EB592 /* Build configuration list for PBXNativeTarget "iOS 生成图片验证码" */;
+			buildPhases = (
+				B6EE74801C9B9FA2003EB592 /* Sources */,
+				B6EE74811C9B9FA2003EB592 /* Frameworks */,
+				B6EE74821C9B9FA2003EB592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS 生成图片验证码";
+			productName = "iOS 生成图片验证码";
+			productReference = B6EE74841C9B9FA2003EB592 /* iOS 生成图片验证码.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6EE749C1C9B9FA2003EB592 /* iOS 生成图片验证码Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EE74B41C9B9FA2003EB592 /* Build configuration list for PBXNativeTarget "iOS 生成图片验证码Tests" */;
+			buildPhases = (
+				B6EE74991C9B9FA2003EB592 /* Sources */,
+				B6EE749A1C9B9FA2003EB592 /* Frameworks */,
+				B6EE749B1C9B9FA2003EB592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6EE749F1C9B9FA2003EB592 /* PBXTargetDependency */,
+			);
+			name = "iOS 生成图片验证码Tests";
+			productName = "iOS 生成图片验证码Tests";
+			productReference = B6EE749D1C9B9FA2003EB592 /* iOS 生成图片验证码Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6EE74A71C9B9FA2003EB592 /* iOS 生成图片验证码UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EE74B71C9B9FA2003EB592 /* Build configuration list for PBXNativeTarget "iOS 生成图片验证码UITests" */;
+			buildPhases = (
+				B6EE74A41C9B9FA2003EB592 /* Sources */,
+				B6EE74A51C9B9FA2003EB592 /* Frameworks */,
+				B6EE74A61C9B9FA2003EB592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6EE74AA1C9B9FA2003EB592 /* PBXTargetDependency */,
+			);
+			name = "iOS 生成图片验证码UITests";
+			productName = "iOS 生成图片验证码UITests";
+			productReference = B6EE74A81C9B9FA2003EB592 /* iOS 生成图片验证码UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6EE747C1C9B9FA2003EB592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tianXin;
+				TargetAttributes = {
+					B6EE74831C9B9FA2003EB592 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NSP28TH28W;
+					};
+					B6EE749C1C9B9FA2003EB592 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NSP28TH28W;
+						TestTargetID = B6EE74831C9B9FA2003EB592;
+					};
+					B6EE74A71C9B9FA2003EB592 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NSP28TH28W;
+						TestTargetID = B6EE74831C9B9FA2003EB592;
+					};
+				};
+			};
+			buildConfigurationList = B6EE747F1C9B9FA2003EB592 /* Build configuration list for PBXProject "iOS 生成图片验证码" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6EE747B1C9B9FA2003EB592;
+			productRefGroup = B6EE74851C9B9FA2003EB592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6EE74831C9B9FA2003EB592 /* iOS 生成图片验证码 */,
+				B6EE749C1C9B9FA2003EB592 /* iOS 生成图片验证码Tests */,
+				B6EE74A71C9B9FA2003EB592 /* iOS 生成图片验证码UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6EE74821C9B9FA2003EB592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EE74971C9B9FA2003EB592 /* LaunchScreen.storyboard in Resources */,
+				B6EE74941C9B9FA2003EB592 /* Assets.xcassets in Resources */,
+				B6EE74921C9B9FA2003EB592 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EE749B1C9B9FA2003EB592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EE74A61C9B9FA2003EB592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6EE74801C9B9FA2003EB592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EE748F1C9B9FA2003EB592 /* ViewController.m in Sources */,
+				B6EE748C1C9B9FA2003EB592 /* AppDelegate.m in Sources */,
+				B6EE74891C9B9FA2003EB592 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EE74991C9B9FA2003EB592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EE74A21C9B9FA2003EB592 /* iOS________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EE74A41C9B9FA2003EB592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EE74AD1C9B9FA2003EB592 /* iOS________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6EE749F1C9B9FA2003EB592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6EE74831C9B9FA2003EB592 /* iOS 生成图片验证码 */;
+			targetProxy = B6EE749E1C9B9FA2003EB592 /* PBXContainerItemProxy */;
+		};
+		B6EE74AA1C9B9FA2003EB592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6EE74831C9B9FA2003EB592 /* iOS 生成图片验证码 */;
+			targetProxy = B6EE74A91C9B9FA2003EB592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6EE74901C9B9FA2003EB592 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6EE74911C9B9FA2003EB592 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6EE74951C9B9FA2003EB592 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6EE74961C9B9FA2003EB592 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6EE74AF1C9B9FA2003EB592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6EE74B01C9B9FA2003EB592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6EE74B21C9B9FA2003EB592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS 生成图片验证码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baiyi.com.iOS--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6EE74B31C9B9FA2003EB592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS 生成图片验证码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baiyi.com.iOS--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6EE74B51C9B9FA2003EB592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS 生成图片验证码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baiyi.com.iOS--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS 生成图片验证码.app/iOS 生成图片验证码";
+			};
+			name = Debug;
+		};
+		B6EE74B61C9B9FA2003EB592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS 生成图片验证码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baiyi.com.iOS--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS 生成图片验证码.app/iOS 生成图片验证码";
+			};
+			name = Release;
+		};
+		B6EE74B81C9B9FA2003EB592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS 生成图片验证码UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baiyi.com.iOS--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS 生成图片验证码";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B6EE74B91C9B9FA2003EB592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS 生成图片验证码UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "baiyi.com.iOS--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS 生成图片验证码";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6EE747F1C9B9FA2003EB592 /* Build configuration list for PBXProject "iOS 生成图片验证码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EE74AF1C9B9FA2003EB592 /* Debug */,
+				B6EE74B01C9B9FA2003EB592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EE74B11C9B9FA2003EB592 /* Build configuration list for PBXNativeTarget "iOS 生成图片验证码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EE74B21C9B9FA2003EB592 /* Debug */,
+				B6EE74B31C9B9FA2003EB592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6EE74B41C9B9FA2003EB592 /* Build configuration list for PBXNativeTarget "iOS 生成图片验证码Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EE74B51C9B9FA2003EB592 /* Debug */,
+				B6EE74B61C9B9FA2003EB592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6EE74B71C9B9FA2003EB592 /* Build configuration list for PBXNativeTarget "iOS 生成图片验证码UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EE74B81C9B9FA2003EB592 /* Debug */,
+				B6EE74B91C9B9FA2003EB592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6EE747C1C9B9FA2003EB592 /* Project object */;
+}
